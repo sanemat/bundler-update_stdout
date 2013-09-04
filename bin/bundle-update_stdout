@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'bundler/update_stdout'
+puts 'update_stdout'
