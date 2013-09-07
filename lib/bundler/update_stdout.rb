@@ -2,6 +2,10 @@ require "bundler/update_stdout/version"
 
 module Bundler
   module UpdateStdout
-    # Your code goes here...
+    class Base
+      def self.update_stdout
+        puts 'bundle-update_stdout'
+      end
+    end
   end
 end
