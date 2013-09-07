@@ -20,4 +20,4 @@ require 'bundler/cli'
 ENV["THOR_DEBUG"] = "1"
 
 require 'bundler/friendly_errors'
-Bundler.with_friendly_errors { Bundler::UpdateStdout::Base.update_stdout }
+Bundler.with_friendly_errors { Bundler::CLI.start }
