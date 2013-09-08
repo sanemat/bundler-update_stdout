@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Bundler::UpdateStdout::VERSION
   spec.authors       = ["sanemat"]
   spec.email         = ["o.gata.ken@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Print a result of bundle update Gemfile.lock.}
+  spec.summary       = %q{You can detect diff between updated Gemfile.lock and old one!}
+  spec.homepage      = "https://github.com/sanemat/bundler-update_stdout"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
